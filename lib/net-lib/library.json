@@ -1,0 +1,13 @@
+{
+    "name": "net-lib",
+    "version": "1.0.0",
+    "build": {
+      "srcDir": ".",
+      "srcFilter": [
+        "+<**/SocketMultiplexer.cpp>",
+        "+<**/NetworkAddress.cpp>"
+      ],
+      "flags": [
+      ]
+    }
+  }

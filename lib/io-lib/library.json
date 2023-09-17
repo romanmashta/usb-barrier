@@ -1,0 +1,15 @@
+{
+    "name": "io-lib",
+    "version": "1.0.0",
+    "exclude" : [
+      "-<**/filesystem.h>"
+    ],
+    "build": {
+      "srcDir": ".",
+      "srcFilter": [
+        "+<**/x.cpp>"
+      ],
+      "flags": [
+      ]
+    }
+  }

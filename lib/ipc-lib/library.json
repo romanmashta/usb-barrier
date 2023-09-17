@@ -1,0 +1,12 @@
+{
+    "name": "ipc-lib",
+    "version": "1.0.0",
+    "build": {
+      "srcDir": ".",
+      "srcFilter": [
+        "+<**/IpcClient.cpp>"
+      ],
+      "flags": [
+      ]
+    }
+  }

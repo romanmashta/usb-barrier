@@ -1,0 +1,16 @@
+{
+    "name": "arch-lib",
+    "version": "1.0.0",
+    "build": {
+      "srcDir": ".",
+      "srcFilter": [
+        "+<**/Arch.cpp>",
+        "+<**/IArchString.cpp>",
+        "+<**/ArchDaemonNone.cpp>",
+        "-<**/unix>",
+        "-<**/win32>"
+      ],
+      "flags": [
+      ]
+    }
+  }

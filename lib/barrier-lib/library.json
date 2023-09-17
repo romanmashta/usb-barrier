@@ -1,0 +1,17 @@
+{
+    "name": "barrier-lib",
+    "version": "1.0.0",
+    "build": {
+      "srcDir": ".",
+      "srcFilter": [
+        "+<**/ClientApp.cpp>",
+        "+<**/App.cpp>",
+        "+<**/AppUtil.cpp>",
+        "+<**/XBarrier.cpp>",
+        "+<**/Screen.cpp>"
+      ],
+      "flags": [
+        "-I../client-lib"
+      ]
+    }
+  }
